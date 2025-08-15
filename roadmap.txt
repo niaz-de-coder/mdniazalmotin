@@ -1,0 +1,40 @@
+sections:
+1. Home:
+-portfolio logo
+-section buttons
+-hero photo
+-hero title
+-hero bio
+-student, entrepreneur, researcher
+2. about:
+-about title
+-hero photo
+-hero social links
+-hero cv link
+3. education:
+-education title
+-education bio (past, present, future)
+-education record section
+4. certifcations:
+-cerification title
+-certification list
+5. skills:
+-skills title
+-skills list
+6. projects:
+-project title
+-project list
+7. contact:
+-contact title
+-address
+-email
+-phone
+-social links
+-contact form
+8. footer:
+-hero photo
+-hero title
+-section buttons
+-copyright
+
+source: https://themewagon.github.io/picto/#!
