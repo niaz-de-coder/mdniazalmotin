@@ -313,3 +313,149 @@ body{
     justify-content: center;
     gap: 4vw;
 }
+/* Contact */
+#contact{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.contactBox{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;;
+}
+.subContactBox{
+    width: 90%;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.contactLinks{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    flex-direction: row;
+    height: 10vh;
+    margin-top: 1vh;
+    gap: 1vw;
+}
+.contactLinks div{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    flex-direction: column;
+}
+.contactLinks i{
+    aspect-ratio: 1/1;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #ffe;
+    color: #25A7DA;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.contactLinks div p{
+    margin: 0.5vh;
+}
+.subContactBox3{
+    background-color: #ffe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    flex-direction: row;
+}
+.subContactBox3 i{
+    padding: 1vh 2vw;
+    color: #25A7DA;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.subContactBox3 i:hover{
+    color: #ffe;
+    background-color: #25A7DA;
+    transition: all 0.3s;
+}
+#contactBox2 form{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    width: 50%;
+    flex-direction: column;
+    gap: 1vh;
+}
+#contactBox2 form input{
+    width: 100%;
+    height: 5vh;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #25A7DA;
+    color: #25A7DA;
+}
+#contactBox2 form input:focus{
+    outline: none;
+    border-bottom: 2px solid #001;
+}
+#contactBox2 form input::placeholder{
+    color: #25A7DA;
+}
+#contactBox2 form textarea{
+    width: 100%;
+    height: 5vh;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #25A7DA;
+    color: #25A7DA;
+}
+#contactBox2 form textarea:focus{
+    outline: none;
+    border-bottom: 2px solid #001;
+}
+#contactBox2 form textarea::placeholder{
+    color: #25A7DA;
+}
+#contactBox2 form button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #25A7DA;
+    padding: 1vh 2vw;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+#contactBox2 form button:hover{
+    background-color: #25A7DA;
+    color: #ffe;
+    transition: all 0.3s;
+}
