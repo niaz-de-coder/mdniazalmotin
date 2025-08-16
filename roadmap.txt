@@ -36,5 +36,3 @@ sections:
 -hero title
 -section buttons
 -copyright
-
-source: https://themewagon.github.io/picto/#!
