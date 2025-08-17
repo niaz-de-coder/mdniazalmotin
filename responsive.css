@@ -1,0 +1,370 @@
+/* For Mobiles */
+@media (min-width:320px) {
+    /* general */
+    p{
+        font-size: 10px;
+    }
+    i{
+        font-size: 10px;
+    }
+    a{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    /* Nav */
+    #plBox p{
+        font-size: 15px;
+    }
+    .nbButton {
+        font-size: 6px;
+    }
+    /* Home */
+    #home{
+        flex-direction: column;
+    }
+    .subHome{
+        justify-content: center;
+    }
+    .subHomebox{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .subHome{
+        width: 100%;
+    }
+    /* about */
+    #about{
+        flex-direction: column;
+    }
+    #about1{
+        width: 100%;
+    }
+    #about2{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    /* Education */
+    #education{
+        flex-direction: column;
+    }
+    #education1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    #education2{
+        width: 100%;
+    }
+    /* Contact */
+    #contact{
+        flex-direction: column;
+    }
+    .contactBox{
+        width: 100%;
+    }
+}
+/* For Tablets */
+@media (min-width:768px) {
+    /* general */
+    p{
+        font-size: 15px;
+    }
+    i{
+        font-size: 15px;
+    }
+    a{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    /* Nav */
+    #plBox p{
+        font-size: 20px;
+    }
+    .nbButton {
+        font-size: 11px;
+    }
+    /* Home */
+    #home{
+        flex-direction: column;
+    }
+    .subHome{
+        justify-content: center;
+    }
+    .subHomebox{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .subHome{
+        width: 100%;
+    }
+    /* about */
+    #about{
+        flex-direction: column;
+    }
+    #about1{
+        width: 100%;
+    }
+    #about2{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    /* Education */
+    #education{
+        flex-direction: column;
+    }
+    #education1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    #education2{
+        width: 100%;
+    }
+    /* Contact */
+    #contact{
+        flex-direction: column;
+    }
+    .contactBox{
+        width: 100%;
+    }
+}
+/* For Laptops */
+@media (min-width:1024px) {
+    /* general */
+    p{
+        font-size: 15px;
+    }
+    i{
+        font-size: 15px;
+    }
+    a{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    /* Nav */
+    #plBox p{
+        font-size: 25px;
+    }
+    .nbButton {
+        font-size: 16px;
+    }
+    /* Home */
+    #home{
+        flex-direction: row;
+    }
+    .subHome{
+        justify-content: row;
+    }
+    .subHomebox{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+    }
+    .subHome{
+        width: 100%;
+    }
+    /* about */
+    #about{
+        flex-direction: row;
+    }
+    #about1{
+        width: 50%;
+    }
+    #about2{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        width: 50%;
+    }
+    /* Education */
+    #education{
+        flex-direction: row;
+    }
+    #education1{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        width: 45%;
+    }
+    #education2{
+        width: 50%;
+    }
+    /* Contact */
+    #contact{
+        flex-direction: row;
+    }
+    .contactBox{
+        width: 50%;
+    }
+}
+/* For Desktops */
+@media (min-width:1440px) {
+    /* general */
+    p{
+        font-size: 20px;
+    }
+    i{
+        font-size: 20px;
+    }
+    a{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    /* Nav */
+    #plBox p{
+        font-size: 30px;
+    }
+    .nbButton {
+        font-size: 21px;
+    }
+    /* Home */
+    #home{
+        flex-direction: row;
+    }
+    .subHome{
+        justify-content: row;
+    }
+    .subHomebox{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+    }
+    .subHome{
+        width: 100%;
+    }
+    /* about */
+    #about{
+        flex-direction: row;
+    }
+    #about1{
+        width: 50%;
+    }
+    #about2{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        width: 50%;
+    }
+    /* Education */
+    #education{
+        flex-direction: row;
+    }
+    #education1{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        width: 45%;
+    }
+    #education2{
+        width: 50%;
+    }
+    /* Contact */
+    #contact{
+        flex-direction: row;
+    }
+    .contactBox{
+        width: 50%;
+    }
+}
+/* For Larger Screens */
+@media (min-width:1920px) {
+    /* general */
+    p{
+        font-size: 25px;
+    }
+    i{
+        font-size: 25px;
+    }
+    a{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    /* Nav */
+    #plBox p{
+        font-size: 35px;
+    }
+    .nbButton {
+        font-size: 26px;
+    }
+    /* Home */
+    #home{
+        flex-direction: row;
+    }
+    .subHome{
+        justify-content: row;
+    }
+    .subHomebox{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+    }
+    .subHome{
+        width: 100%;
+    }
+    /* about */
+    #about{
+        flex-direction: row;
+    }
+    #about1{
+        width: 50%;
+    }
+    #about2{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        width: 50%;
+    }
+    /* Education */
+    #education{
+        flex-direction: row;
+    }
+    #education1{
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        width: 45%;
+    }
+    #education2{
+        width: 50%;
+    }
+    /* Contact */
+    #contact{
+        flex-direction: row;
+    }
+    .contactBox{
+        width: 50%;
+    }
+}
